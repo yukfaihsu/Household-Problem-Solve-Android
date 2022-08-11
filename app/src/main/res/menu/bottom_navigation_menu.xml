@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/problemListFragment"
+        android:title="Problem List"
+        android:icon="@drawable/ic_problem_list"/>
+    <item
+        android:id="@+id/problemPostingFragment"
+        android:title="Fill in the Form"
+        android:icon="@drawable/ic_problem_posting"/>
+    <item
+        android:id="@+id/overviewFragment"
+        android:title="Overview"
+        android:icon="@drawable/ic_overview"/>
+    <item
+        android:id="@+id/historyFragment"
+        android:title="History"
+        android:icon="@drawable/ic_history"/>
+
+
+</menu>

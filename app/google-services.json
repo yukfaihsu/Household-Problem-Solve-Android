@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022347430763",
+    "project_id": "an---household-problem-solve",
+    "storage_bucket": "an---household-problem-solve.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022347430763:android:16117d4034811961fc9a2e",
+        "android_client_info": {
+          "package_name": "com.example.project_group11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022347430763-g6t54r68qa3ik3dgnjpk58pvin313g84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb7HrVGdVCpU1kuTF54as08En85NGVTl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022347430763-g6t54r68qa3ik3dgnjpk58pvin313g84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

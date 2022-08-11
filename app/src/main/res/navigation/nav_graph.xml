@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/problemListFragment">
+
+    <fragment
+        android:id="@+id/problemListFragment"
+        android:name="com.example.project_group11.fragments.ProblemListFragment"
+        android:label="fragment_problem_list"
+        tools:layout="@layout/fragment_problem_list" >
+        <action
+            android:id="@+id/action_problemListFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/problemPostingFragment"
+        android:name="com.example.project_group11.fragments.ProblemPostingFragment"
+        android:label="fragment_problem_posting"
+        tools:layout="@layout/fragment_problem_posting" />
+    <fragment
+        android:id="@+id/overviewFragment"
+        android:name="com.example.project_group11.fragments.OverviewFragment"
+        android:label="fragment_overview"
+        tools:layout="@layout/fragment_overview" >
+        <action
+            android:id="@+id/action_overviewFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.project_group11.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.project_group11.fragments.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="problem"
+            app:argType="com.example.project_group11.models.Problem" />
+        <argument
+            android:name="comeFrom"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_detailFragment_to_writeReviewFragment"
+            app:destination="@id/writeReviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/writeReviewFragment"
+        android:name="com.example.project_group11.fragments.WriteReviewFragment"
+        android:label="WriteReviewFragment" >
+        <argument
+            android:name="problem"
+            app:argType="com.example.project_group11.models.Problem" />
+    </fragment>
+</navigation>
